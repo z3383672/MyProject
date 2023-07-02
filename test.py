@@ -2,6 +2,7 @@ from transformers import BertTokenizer, BertForSequenceClassification
 
 # Load the BERT tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+print("ccccc")
 
 # Load the pre-trained BERT model for sequence classification
 model = BertForSequenceClassification.from_pretrained('bert-base-uncased')
